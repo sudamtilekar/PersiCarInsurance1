@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PersiCarDamageInsuranceSuite" verbose="1" parallel="none">
+    <test name="LoginTest" preserve-order="true">
+        <classes>
+            <class name="com.persi.car.insurance.damage.claim.test.logiPage.LoginTest"/>
+        </classes>
+    </test>
+</suite>
